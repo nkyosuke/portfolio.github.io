@@ -1,0 +1,186 @@
+@charaset "utf-8";
+body {
+  font-family:"Hifagino Kaku Gothic Pron","メイリオ",sans-serif;
+  background-color:white;
+
+}
+#skill_content b{
+  font-size: 13px;
+}
+.container{
+
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+#wrapper{
+  background-color:#f3f3f3;
+  margin-left: 0px;
+  margin-right:0px;
+}
+
+
+
+.jumbotron{
+  /* background-color: black; */
+  /* background:url(/css/images/Book.jpg); */
+  /* background-size:20px 20px; */
+  /* background:url(images/Book.jpg); */
+  /* background-image:url("https://unsplash.com/photos/AyH9hAmiX9Y"); */
+  /* background-image:url("https://source.unsplash.com/C0zDWAPFT9A"); */
+  background:url('http://nomo-blog.net/wp-content/uploads/2019/12/jarek-ceborski-RSXfg4ckUAA-unsplash.jpg') no-repeat center center;
+  background-size: cover;
+  color:white;
+  width:100%;
+  margin:0 auto;
+
+
+}
+
+.jumbotron-extend{
+  position:relative;
+  height:50vh;
+  min-height:200px;
+}
+.jumbotron-container{
+  position:relative;
+  top:60%;
+  transform:translateY(-50%);
+  text-align: center;
+}
+.jumbotron-container span{
+  color:red;
+}
+.jumbotron-container p{
+  color:gray;
+}
+
+
+#gnav{
+  margin: 0 auto;
+}
+
+#gnav ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  padding-inline-start:40px;
+  }
+
+#gnav ul li{
+  text-align:center;
+  display: list-item;
+  list-style: none;
+  padding:0 10px;
+}
+.main_contents{
+  margin-top:10px;
+  padding:0 5px;
+
+}
+
+
+.content{
+  margin-bottom:100px;
+  padding-left:1%;
+  padding-right: 1%;
+}
+p.text{
+  margin-top:10px;
+  text-align: left;
+  padding:0 20%;
+}
+.skill_content{
+  background-color:white;
+  margin-top:10px;
+  margin-right:0px;
+  margin-left:0px;
+  font-size:15px;
+}
+.skill-content-title{
+  text-align: center;
+  padding-top:15px;
+}
+.skill_name{
+  padding-bottom:15px;
+  padding-right:2%;
+  padding-left:2%;
+  font-style:italic;
+  text-align: center;
+}
+.label{
+  margin-bottom:10px;
+}
+.level{
+  text-align: center;
+}
+.blanket{
+  text-align:center;
+  font-size:15px;
+}
+.checked{
+  color:yellow;
+}
+.rate{
+  font-size:13px;
+}
+#skill_content{
+  margin-bottom:50px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#profile{
+  text-align: center;
+}
+#skills{
+  text-align: center;
+  padding:0 2%;
+}
+
+
+#works{
+
+  text-align: center;
+  padding:0 2%;
+
+
+}
+.card_image{
+  text-align: center;
+  margin-bottom:20px;
+}
+.work_content{
+  background-color:white;
+  margin-top:10px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.work_content p{
+  text-align: center;
+}
+.work{
+
+  border:#f3f3f3 2px solid;
+
+}
+#contact{
+  text-align: center;
+}
+.contact_content p{
+  text-align: center;
+}
+#footer{
+  background-color:#9e9fa0;
+  color:white;
+  margin:0 1%;
+  padding-top:20px;
+}
+#footer p{
+  font-size: 10px;
+  text-align: center;
+}
